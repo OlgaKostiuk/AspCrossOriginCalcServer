@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWebApi", "CalcWebApi\CalcWebApi.csproj", "{FBB12373-8179-4FDC-9E36-B15ABF064D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWebApi.Tests", "CalcWebApi.Tests\CalcWebApi.Tests.csproj", "{E7452DC7-3F72-456C-88DC-65CD3B0B5B16}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CalcWebPostClient(1)", "CalcWebPostClient\", "{9BCB335A-4543-44EA-9134-574BFF639E31}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56239"
+		Debug.AspNetCompiler.PhysicalPath = "CalcWebPostClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56239\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56239"
+		Release.AspNetCompiler.PhysicalPath = "CalcWebPostClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56239\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56239"
+		SlnRelativePath = "CalcWebPostClient\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB12373-8179-4FDC-9E36-B15ABF064D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB12373-8179-4FDC-9E36-B15ABF064D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB12373-8179-4FDC-9E36-B15ABF064D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB12373-8179-4FDC-9E36-B15ABF064D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7452DC7-3F72-456C-88DC-65CD3B0B5B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7452DC7-3F72-456C-88DC-65CD3B0B5B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7452DC7-3F72-456C-88DC-65CD3B0B5B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7452DC7-3F72-456C-88DC-65CD3B0B5B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCB335A-4543-44EA-9134-574BFF639E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCB335A-4543-44EA-9134-574BFF639E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCB335A-4543-44EA-9134-574BFF639E31}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCB335A-4543-44EA-9134-574BFF639E31}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FF6BAB8-22DD-4795-AAEF-171DA227DB27}
+	EndGlobalSection
+EndGlobal
